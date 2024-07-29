@@ -4,7 +4,7 @@ function Footer(){
 
     return(
         <>
-        <div className='conteiner footer row-gap-3'>
+        <div className='footer row-gap-3'>
             <div className='d-flex justify-content-between align-items-center'>
                 <h1>Nos vemos allá</h1>
                 <div className="btnFlecha d-flex justify-content-between">
@@ -12,7 +12,7 @@ function Footer(){
                     <a href="#contacto" className='btn btn-primary'>Contratame</a>
                 </div>
             </div>
-            <div className='row column-gap-3'>
+            <div className='row column-gap-3 row-gap-3'>
                 <div className='col p-0'>
                     <p>
                         <img src="/imgPrueba.jpeg" alt="" width="35" />

@@ -1,0 +1,56 @@
+.hero{
+    margin-top: 100px;
+}
+
+.fa-minus{
+    color: #5840ba;
+}
+
+.imgHero{
+    width: 30%;
+}
+
+.btnHero{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    border: solid black 1.5px;
+    color: black;
+    border-radius: 25px;
+    margin: 5px;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+.botones{
+    background-color: white;
+    width: 40%;
+    border-radius: 30px;
+    padding: 0;
+}
+
+.portfolio-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    width: 50%;
+    border-radius: 25px;
+    margin: 5px;
+    padding-left: 10%;
+    align-content: center;
+    color: white;
+    background-color: #5840ba;
+}
+
+.fa-arrow-right{
+    font-size: 1rem;
+    background-color: #a4db74;
+    color: black;
+    border-radius: 50%;
+}
+
+.btnHero:hover{
+    color: white;
+    background-color: black;
+}
