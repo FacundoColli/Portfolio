@@ -8,15 +8,18 @@ import Proyectos from './Component/Main/Proyectos/Proyectos'
 import Servicios from './Component/Main/Servicios/Servicios'
 import SobreMi from './Component/Main/SobreMi/SobreMi'
 import './index.css'
+import Franja from './Component/Main/Franja/Franja'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header/>
     <Hero/>
+    <Franja/>
     <Servicios/>
     <SobreMi/>
     <Proyectos/>
     <Contacto/>
+    <Franja/>
     <Footer/>
   </React.StrictMode>,
 )

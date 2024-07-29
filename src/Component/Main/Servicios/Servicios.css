@@ -1,0 +1,70 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px;
+    background-color: #5840ba;
+    color: white;
+}
+
+.services i{
+    color: #a4db74;
+    margin-right: 10px;
+}
+
+.services .fa-arrow-right{
+    background-color: #5840ba;
+    color: white;
+}
+
+.services .btnFlecha{
+    width: 30%;
+    background-color: white;
+}
+
+.services .btn{
+    width: 70%;
+    color: #5840ba;
+}
+
+.services .btn:hover{
+    color: white;
+}
+
+.cards{
+    background-color: #705BC4;
+    border-radius: 20rem;
+    
+    width: 30%;
+}
+
+.cards i{
+    background-color: #7E6BCA;
+    border-radius: 50%;
+    color: white;
+    padding: 25px;
+    font-size: 3rem;
+    margin: 40px;
+    margin-bottom: 20px;
+
+}
+
+.cards p{
+    color: #A89CDB;
+    margin: 0 20px 10px 20px;
+    font-size: 0.9rem;
+}
+
+.cards .btn{
+    background: none;
+    border: none;
+    color: #A89CDB;
+    margin-bottom: 30px;
+}
+
+.cards .fa-arrow-right{
+    background: none;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0 0 0 10px;
+}
