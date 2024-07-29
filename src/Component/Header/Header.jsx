@@ -4,7 +4,7 @@ function Header(){
 
     return(
         <>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary header">
             <div class="container-fluid container">
                 <a class="navbar-brand" href="#">
                     <img src="/imgPrueba.jpeg" alt="" width="35" />

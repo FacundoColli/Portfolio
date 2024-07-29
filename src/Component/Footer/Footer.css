@@ -1,0 +1,59 @@
+.btnFlecha{
+    background-color: black;  
+    border-radius: 30px;
+}
+
+.fa-arrow-right{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    margin: 5px;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+.btnFlecha > .btn {
+    align-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #a4db74;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    transition: color 0.2s;
+    border: none;
+}
+
+.fa-brands{
+    color: white;
+    background-color: #5840ba;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-play{
+    background-color: #5840ba;
+    color: white;
+    padding: 0 15px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.footer{
+    margin: 100px;
+    margin-bottom: 0;
+}
+
+.footer > div{
+    margin-top: 70px;
+}
+
+.col > h3{
+    color: #5840ba;
+}
