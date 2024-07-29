@@ -1,0 +1,19 @@
+.btnHeader{
+    padding-right:  15px;
+    padding-left:  15px;
+    border-radius: 25px;
+    color: white;
+    background-color: #5840ba;
+    border: 1px solid #5840ba;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.btnHeader:hover{
+    color: #5840ba;
+    background-color: white;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    color: #5840ba;
+}
