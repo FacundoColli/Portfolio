@@ -1,0 +1,65 @@
+.aboutme{
+    padding: 100px 0;
+    margin: 0 140px;
+}
+
+.experiencia{
+    background-color: #5840ba;
+    color: white;
+    border-radius: 1rem;
+}
+
+.aboutme .fa-minus{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.aboutme h6, h1{
+    font-weight: bold;
+}
+
+.aboutme h3{
+    color: black;
+    font-weight: bold;
+}
+
+.aboutme .texto p{
+    color: #6c6c6c;
+}
+
+.aboutme span{
+    color: #5840ba;
+}
+
+.aboutme .texto > p{
+    color: grey;
+    font-size: 0.85rem;
+}
+
+.btnFlecha > .btn {
+    transition: color 0.2s;
+    border: none;
+}
+
+.aboutme .experiencia h1{
+    writing-mode: vertical-rl;
+    font-size: 2.5rem;
+    text-align: center;
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.aboutme .experiencia h2{
+    font-size: 20rem;
+    text-align: center;
+    line-height: 100%;
+    margin: 0;
+}
+
+.aboutme .experiencia p{
+    text-align: center;
+}
+
+.aboutme .experiencia div{
+    margin: 0 60px;
+}

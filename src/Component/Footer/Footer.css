@@ -1,5 +1,5 @@
 .btnFlecha{
-    background-color: black;  
+    background-color: rgb(34, 34, 34);  
     border-radius: 30px;
 }
 
@@ -7,7 +7,7 @@
     border-radius: 50%;
     padding: 5px;
     background-color: white;
-    color: black;
+    color: rgb(34, 34, 34);
     margin: 5px;
     align-self: center;
     font-size: 1.5rem;
@@ -17,7 +17,7 @@
     align-content: center;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: rgb(34, 34, 34);
     background-color: #a4db74;
     padding-right: 20px;
     padding-left: 20px;
