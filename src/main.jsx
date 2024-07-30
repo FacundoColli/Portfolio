@@ -17,9 +17,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Franja/>
     <Servicios/>
     <SobreMi/>
-    {/* <Proyectos/> */}
+    <Proyectos/>
     <Franja/>
-    {/* <Contacto/> */}
+    <Contacto/>
     <Footer/>
   </React.StrictMode>,
 )
