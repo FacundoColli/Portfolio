@@ -14,11 +14,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header/>
     <Hero/>
-    {/* <Franja/> */}
+    <Franja/>
     <Servicios/>
     {/* <SobreMi/> */}
     {/* <Proyectos/> */}
-    {/* <Franja/> */}
+    <Franja/>
     {/* <Contacto/> */}
     {/* <Footer/> */}
   </React.StrictMode>,

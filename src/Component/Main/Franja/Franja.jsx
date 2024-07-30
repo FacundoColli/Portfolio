@@ -3,7 +3,7 @@ import './Franja.css'
 function Franja(){
 
     return(
-        <div className='barra'>
+        <div className='d-flex justify-content-evenly barra gap-3'>
             <p>C</p>
             <i className="fa-regular fa-star"></i>
             <p>C++</p>
