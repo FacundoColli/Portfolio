@@ -1,0 +1,96 @@
+.contacto{
+    background-color:  #5840ba;
+    color: white;
+    padding: 100px;
+    width: 100%;
+}
+
+.contacto .fa-minus{
+    color: #a4db74;
+    margin-right: 10px;
+}
+
+.contacto span{
+    color: #a4db74;
+}
+
+.contacto .datos .icon{
+    font-size: 1.2rem;
+    color: #5840ba;
+    background-color: white;
+    border-radius: 50%;
+    width: 45px;
+    padding: 10px;
+    text-align: center;
+}
+
+.contacto .icons p{
+    margin: 0;
+    margin-left: 10px;
+    align-self: center;
+}
+
+.datos > div{
+    margin-bottom: 40px;
+}
+
+.contacto .datos{
+    width: 50%;
+}
+
+.contacto form{
+    width: 50%;
+}
+
+.contacto form input{
+    border: none;
+    border-radius: 5px;
+    background-color: #705BC4;
+    color: white;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.contacto form input::placeholder{
+    color: #B0A4DF;
+    font-size: 1.2rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input:focus {
+    outline: none; 
+}
+
+.contacto .btnFlecha{
+    margin-top: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;  
+    border-radius: 30px;
+    padding: 0;
+}
+
+.contacto .more{
+    color: #5840ba;
+    background-color: #a4db74;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: color 0.2s;;
+    width: 100%;
+
+}
+
+.contacto form i{
+    background-color: #5840ba;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    align-self: center;
+    font-size: 1rem;
+}

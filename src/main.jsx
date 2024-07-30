@@ -18,8 +18,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Servicios/>
     <SobreMi/>
     <Proyectos/>
-    <Contacto/>
     <Franja/>
+    <Contacto/>
     <Footer/>
   </React.StrictMode>,
 )
