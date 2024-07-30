@@ -14,7 +14,7 @@ function Servicios(){
                     <a href="#" className='btn btn-primary'>Ver todos</a>
                 </div>
             </div>
-            <div className='d-flex flex-wrap gap-3 justify-content-between'>
+            <div className='d-flex flex-wrap gap-5 justify-content-center'>
                 <div className=" text-center cards">
                     <i className="fa-solid fa-pen-nib"></i>
                     <div className="card-body">
