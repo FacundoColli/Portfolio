@@ -7,7 +7,7 @@ function Servicios(){
             <div className='d-flex justify-content-between align-items-center'>
                 <div className="container">
                     <p><i className="fa-solid fa-minus"></i>Servicios</p>
-                    <h1>Mis Servicios</h1>
+                    <h1>Mis <span>Servicios</span></h1>
                 </div>
                 <div className="btnFlecha d-flex justify-content-between">
                     <i class="fa-solid fa-arrow-right"></i>

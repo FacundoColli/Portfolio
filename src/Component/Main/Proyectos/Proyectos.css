@@ -1,0 +1,85 @@
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px;
+    background-color: #5840ba;
+    color: white;
+}
+
+.proyectos i{
+    color: #a4db74;
+    margin-right: 10px;
+}
+
+.proyectos .fa-arrow-right{
+    background-color: #5840ba;
+    color: white;
+}
+
+.proyectos .btnFlecha{
+    width: 30%;
+    background-color: white;
+}
+
+.proyectos .more{
+    width: 70%;
+    color: #5840ba;
+}
+
+.proyectos .btn:hover{
+    color: white;
+}
+
+.proyectos span{
+    color: #a4db74;
+}
+
+.proyectos article .btn{
+    color: rgb(34, 34, 34);
+    background-color: #a4db74;
+    border-radius: 20px;
+}
+
+.proyectos article h3{
+    color: white;
+}
+
+.proyectos img{
+    border-radius: 30px;
+}
+
+.proyectos article{
+    background-color: #705BC4;
+    padding: 13px 0;
+    border-radius: 30px;
+}
+
+.proyectos article i{
+    background-color: #5840ba;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+    align-self: center;
+    font-size: 1.5rem;
+}
+.proyectos article .btnFlecha{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;  
+    border-radius: 30px;
+    padding: 0;
+}
+
+.proyectos article .more{
+    color: #5840ba;
+    background-color: #a4db74;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: color 0.2s;;
+    width: 100%;
+
+}
+
