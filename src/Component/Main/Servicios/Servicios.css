@@ -1,8 +1,9 @@
 .services{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 100px;
+    padding: 10%;
     background-color: #5840ba;
     color: white;
 }
@@ -22,7 +23,7 @@
 }
 
 .services .btnFlecha{
-    width: 30%;
+    width: 15rem;
     background-color: white;
 }
 
@@ -38,18 +39,18 @@
 .cards{
     background-color: #705BC4;
     border-radius: 20rem;
-    
-    width: 30%;
+    width: 18rem;
 }
 
 .cards i{
     background-color: #7E6BCA;
     border-radius: 50%;
     color: white;
-    padding: 25px;
-    font-size: 3rem;
-    margin: 40px;
+    padding: 10%;
+    font-size: 200%;
+    margin: 10%;
     margin-bottom: 20px;
+    align-self: center;
 
 }
 

@@ -16,10 +16,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hero/>
     {/* <Franja/> */}
     <Servicios/>
-    <SobreMi/>
-    <Proyectos/>
+    {/* <SobreMi/> */}
+    {/* <Proyectos/> */}
     {/* <Franja/> */}
-    <Contacto/>
-    <Footer/>
+    {/* <Contacto/> */}
+    {/* <Footer/> */}
   </React.StrictMode>,
 )

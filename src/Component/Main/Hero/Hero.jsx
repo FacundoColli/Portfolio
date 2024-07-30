@@ -4,7 +4,7 @@ function Hero(){
 
     return(
         <>
-        <section class="hero container text-center">
+        <section class="hero bg-body-tertiary text-center">
             <article>
                 <p><i class="fa-solid fa-minus"></i> Hola</p>
                 <h1>Soy Facundo,<br/>Desarrollador FullStack</h1>

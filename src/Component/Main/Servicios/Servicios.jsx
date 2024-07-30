@@ -4,8 +4,8 @@ function Servicios(){
 
     return(
         <div className='services'>
-            <div className='d-flex justify-content-between align-items-center'>
-                <div className="container">
+            <div className='d-flex flex-wrap justify-content-between align-items-center'>
+                <div className="">
                     <p><i className="fa-solid fa-minus"></i>Servicios</p>
                     <h1>Mis <span>Servicios</span></h1>
                 </div>
@@ -14,8 +14,8 @@ function Servicios(){
                     <a href="#" className='btn btn-primary'>Ver todos</a>
                 </div>
             </div>
-            <div className='d-flex justify-content-between'>
-                <div className="container text-center cards">
+            <div className='d-flex flex-wrap gap-3 justify-content-between'>
+                <div className=" text-center cards">
                     <i className="fa-solid fa-pen-nib"></i>
                     <div className="card-body">
                         <h3 className="card-title">Diseño UI/UX</h3>
@@ -23,7 +23,7 @@ function Servicios(){
                         <a href="#" className="btn btn-primary">Ver más<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div className="container text-center cards">
+                <div className=" text-center cards">
                     <i className="fa-solid fa-bezier-curve"></i>
                     <div className="card-body">
                         <h3 className="card-title">Diseño de App</h3>
@@ -31,7 +31,7 @@ function Servicios(){
                         <a href="#" className="btn btn-primary">Ver más<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
-                <div className="container text-center cards">
+                <div className=" text-center cards">
                     <i className="fa-solid fa-pager"></i>
                     <div className="card-body">
                         <h3 className="card-title">Diseño Web</h3>
