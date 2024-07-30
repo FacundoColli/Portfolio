@@ -5,14 +5,14 @@ function Footer(){
     return(
         <>
         <div className='footer row-gap-3'>
-            <div className='d-flex justify-content-between align-items-center'>
+            <div className='d-flex flex-wrap justify-content-between align-items-center'>
                 <h1>Nos vemos allá</h1>
                 <div className="btnFlecha d-flex justify-content-between">
                     <i class="fa-solid fa-arrow-right"></i>
                     <a href="#contacto" className='btn btn-primary'>Contratame</a>
                 </div>
             </div>
-            <div className='row column-gap-3 row-gap-3'>
+            <div className='row column-gap-3 row-gap-5'>
                 <div className='col p-0'>
                     <p>
                         <img src="/imgPrueba.jpeg" alt="" width="35" />
