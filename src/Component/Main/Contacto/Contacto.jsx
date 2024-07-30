@@ -3,7 +3,7 @@ import './Contacto.css'
 function Contacto(){
 
     return(
-        <div className='row contacto'>
+        <div className='d-flex flex-wrap justify-content-center contacto'>
             <article class="col datos">
                 <div className="container">
                     <p><i className="fa-solid fa-minus"></i>Proyectos</p>
