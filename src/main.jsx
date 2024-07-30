@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Hero/>
     <Franja/>
     <Servicios/>
-    {/* <SobreMi/> */}
+    <SobreMi/>
     {/* <Proyectos/> */}
     <Franja/>
     {/* <Contacto/> */}
