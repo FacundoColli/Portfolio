@@ -4,7 +4,7 @@ function Proyectos(){
 
     return(
         <>
-        <div className='proyectos'>
+        <div className='proyectos' id='proyectos'>
             <div className='d-flex flex-wrap justify-content-between align-items-center'>
                 <div className="">
                     <p><i className="fa-solid fa-minus"></i>Proyectos</p>
@@ -12,7 +12,7 @@ function Proyectos(){
                 </div>
                 <div className="btnFlecha d-flex justify-content-between">
                     <i class="fa-solid fa-arrow-right"></i>
-                    <a href="#" className='btn btn-primary more'>Ver todos</a>
+                    <a href="#" className='btn more'>Ver todos</a>
                 </div>
             </div>
             <div className='d-flex flex-column row-gap-5 flex-wrap'>

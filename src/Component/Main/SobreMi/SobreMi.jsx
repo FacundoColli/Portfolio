@@ -3,7 +3,7 @@ import './SobreMi.css'
 function SobreMi(){
 
     return(
-        <div className='d-flex flex-wrap justify-content-center aboutme gap-5'>
+        <div id="sobremi" className='d-flex flex-wrap justify-content-center aboutme gap-5'>
             <section class="experiencia d-flex">
                 <h1 className='col-3'>FACUNDO COLLI</h1>
                 <div className='col'>

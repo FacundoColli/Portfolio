@@ -1,9 +1,21 @@
 import './Contacto.css'
+import React, { useState } from 'react';
 
 function Contacto(){
 
+    
+    const [clicked, setClicked] = useState(false);
+      
+    const handleClick = () => {
+        setClicked(!clicked);
+    };
+
+    const handleSubmit = (e) => {
+    e.preventDefault();
+    };
+    
     return(
-        <div className='d-flex flex-wrap justify-content-center contacto'>
+        <div id="contacto" className='d-flex flex-wrap justify-content-center contacto'>
             <article class="col datos">
                 <div className="container">
                     <p><i className="fa-solid fa-minus"></i>Proyectos</p>
@@ -25,22 +37,22 @@ function Contacto(){
                     </div>
                 </div>
             </article>
-            <form className='col'>
+            <form className='col' onSubmit={handleSubmit}>
                 <article className='row column-gap-3'>
-                    <input className="col" type="text" placeholder="Nombre *"/>
-                    <input className="col" type="text" placeholder="Apellido *"/>
+                    <input className="col" type="text"  placeholder='Nombre'/>
+                    <input className="col" type="text"  placeholder='Apellido'/>
                 </article>
                 <article className='row column-gap-3'>
-                    <input className="col" type="email" id="exampleFormControlInput1" placeholder="Email *"/>
-                    <input className="col" type="number" placeholder="Teléfono *"/>
+                    <input className="col" type="email"   placeholder='Email'/>
+                    <input className="col" type="number"  placeholder='Telefono'/>
                 </article>
                 <article className='row'>
-                    <input className="asunto" class="form-control" id="exampleFormControlTextarea1" type="text" placeholder="Asunto *"/>
-                    <input className="mensaje" class="form-control" id="exampleFormControlTextarea1" type="text" placeholder="Mensaje *"/>
+                    <input className="asunto" id="exampleFormControlTextarea1" type="text" placeholder='Asunto'/>
+                    <input className="mensaje" id="exampleFormControlTextarea1" type="text" placeholder='Mensaje'/>
                 </article>
                 <div className="btnFlecha d-flex justify-content-between">
                     <i class="fa-solid fa-arrow-right"></i>
-                    <button type='submit' className='btn btn-primary more'>Enviar</button>
+                    <button onClick={handleClick} type='submit' className='btn more'>Enviar</button>
                 </div>
             </form>
         </div>

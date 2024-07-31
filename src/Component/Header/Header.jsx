@@ -19,16 +19,16 @@ function Header(){
                             <a class="nav-link" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Servicios</a>
+                            <a class="nav-link" href="#servicios">Servicios</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Sobre Mi</a>
+                            <a class="nav-link" href="#sobremi">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                     </ul>
-                    <a class="btn btn-primary btnHeader">Contactame</a>
+                    <a class="btn btnHeader" href='#contacto'>Contactame</a>
                 </div>
             </div>
         </nav>

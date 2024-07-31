@@ -40,7 +40,11 @@
     background-color: #705BC4;
     border-radius: 20rem;
     width: 19rem;
+    transition: background-color 0.3s;
+}
 
+.cards h3{
+    transition: color 0.3s;
 }
 
 .cards i{
@@ -48,16 +52,20 @@
     border-radius: 50%;
     color: white;
     padding: 10%;
-    font-size: 250%;
+    font-size: 300%;
     margin: 15%;
     margin-bottom: 40px;
     align-self: center;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
 }
 
 .cards p{
     color: #A89CDB;
     margin: 0 20px 10px 20px;
     font-size: 0.9rem;
+    padding: 0 10px;
+    transition: color 0.3s;
 }
 
 .cards .btn{
@@ -72,4 +80,21 @@
     font-size: 1rem;
     padding: 0;
     margin: 0 0 0 10px;
+}
+.cards:hover{
+    background-color: white;
+}
+
+.cards:hover p{
+    color: rgb(46, 46, 46);
+}
+.cards:hover h3{
+    color: rgb(46, 46, 46);
+}
+.cards:hover i{
+    color: #5840ba;
+    background-color: white;
+}
+.cards .btn:hover{
+    color: #5840ba;
 }

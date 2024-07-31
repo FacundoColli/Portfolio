@@ -9,7 +9,7 @@ function Footer(){
                 <h1>Nos vemos allá</h1>
                 <div className="btnFlecha d-flex justify-content-between">
                     <i class="fa-solid fa-arrow-right"></i>
-                    <a href="#contacto" className='btn btn-primary'>Contratame</a>
+                    <a href="#contacto" className='btn'>Contratame</a>
                 </div>
             </div>
             <div className='row column-gap-3 row-gap-5'>
@@ -20,26 +20,26 @@ function Footer(){
                     </p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae molestias velit odit pariatur corporis labore assumenda</p>
                     <div class="d-flex justify-content-between">
-                        <i class="fa-brands fa-facebook"></i>
-                        <i class="fa-brands fa-behance"></i>
-                        <i class="fa-brands fa-youtube"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
+                        <a href='#'><i class="fa-brands fa-facebook"></i></a>
+                        <a href='#'><i class="fa-brands fa-behance"></i></a>
+                        <a href='#'><i class="fa-brands fa-youtube"></i></a>
+                        <a href='#'><i class="fa-brands fa-twitter"></i></a>
+                        <a href='#'><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
                 <div className='col d-flex flex-column align-items-start p-0'>
                     <h3>Navegación</h3>
-                    <a href="#inicio" className='btn'>Inicio</a>
+                    <a href="#" className='btn'>Inicio</a>
                     <a href="#servicios" className='btn'>Servicios</a>
                     <a href="#sobremi" className='btn'>Sobre mi</a>
                     <a href="#proyectos" className='btn'>Proyectos</a>
                 </div>
                 <div className='col d-flex flex-column align-items-start p-0'>
                     <h3>Contacto</h3>
-                    <a className='btn'>+54 (343) 123-4567</a>
-                    <a className='btn'>www.example.com</a>
-                    <a className='btn'>facucolli@gmail.com</a>
-                    <a className='btn'>Entre Ríos, Argentina</a>
+                    <p className=''>+54 (343) 123-4567</p>
+                    <p className=''>www.example.com</p>
+                    <p className=''>facucolli@gmail.com</p>
+                    <p className=''>Entre Ríos, Argentina</p>
                 </div>
                 <div className='col col d-flex flex-column align-items-start p-0'>
                     <h3>Obten la última información</h3>

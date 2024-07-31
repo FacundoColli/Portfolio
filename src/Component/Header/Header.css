@@ -14,11 +14,13 @@
     background-color: #5840ba;
     border: 1px solid #5840ba;
     transition: background-color 0.2s, color 0.2s, border 0.2s;
+    border: none;
 }
 
 .btnHeader:hover{
     color: #5840ba;
     background-color: white;
+    border: #5840ba 1px solid;
 }
 
 .nav-link:hover{

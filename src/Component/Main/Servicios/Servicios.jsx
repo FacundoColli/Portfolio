@@ -3,7 +3,7 @@ import './Servicios.css'
 function Servicios(){
 
     return(
-        <div className='services'>
+        <div className='services' id='servicios'>
             <div className='d-flex flex-wrap justify-content-between align-items-center'>
                 <div className="">
                     <p><i className="fa-solid fa-minus"></i>Servicios</p>
@@ -11,7 +11,7 @@ function Servicios(){
                 </div>
                 <div className="btnFlecha d-flex justify-content-between">
                     <i class="fa-solid fa-arrow-right"></i>
-                    <a href="#" className='btn btn-primary'>Ver todos</a>
+                    <a href="#" className='btn'>Ver todos</a>
                 </div>
             </div>
             <div className='d-flex flex-wrap gap-5 justify-content-center'>
@@ -20,7 +20,7 @@ function Servicios(){
                     <div className="card-body">
                         <h3 className="card-title">Diseño UI/UX</h3>
                         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                        <a href="#" className="btn btn-primary">Ver más<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#" className="btn">Ver más<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className=" text-center cards">
@@ -28,7 +28,7 @@ function Servicios(){
                     <div className="card-body">
                         <h3 className="card-title">Diseño de App</h3>
                         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                        <a href="#" className="btn btn-primary">Ver más<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#" className="btn">Ver más<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div className=" text-center cards">
@@ -36,7 +36,7 @@ function Servicios(){
                     <div className="card-body">
                         <h3 className="card-title">Diseño Web</h3>
                         <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                        <a href="#" className="btn btn-primary">Ver más<i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="#" className="btn">Ver más<i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
